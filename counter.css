@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #b9afaf;
+}
+
+.container {
+    text-align: center;
+    background: rgb(253, 250, 250);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#counter {
+    font-size: 48px;
+    margin: 20px 0;
+    transition: transform 0.2s;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#increment {
+    background-color: #30f15d; 
+}
+
+#decrement {
+    background-color: #e6172c; 
+}
+
+#reset {
+    background-color: #6ca9eb; 
+}
+
+button:hover {
+    opacity: 0.9; 
+}
+
+/*hover effects */
+#increment:hover {
+    background-color: #01771b; 
+}
+
+#decrement:hover {
+    background-color: #850411; 
+}
+
+#reset:hover {
+    background-color: #033468; 
+}
